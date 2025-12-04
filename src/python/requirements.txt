@@ -1,0 +1,8 @@
+torch
+torchvision
+opencv-python==4.8.1.78 
+Pillow
+numpy
+Flask
+python-dotenv
+flask-cors
