@@ -1,0 +1,12 @@
+appId: com.bulk-remover.app
+productName: Bulk Background Remover
+directories:
+  buildResources: public
+  output: release
+files:
+  - dist/**/*
+  - package.json
+win:
+  certificateFile: null
+  certificatePassword: null
+  signingHa

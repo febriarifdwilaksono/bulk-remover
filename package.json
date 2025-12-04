@@ -1,0 +1,30 @@
+{
+  "name": "bulk-background-remover",
+  "version": "1.0.0",
+  "description": "Professional bulk background removal tool with GPU acceleration",
+  "type": "module",
+  "main": "dist/main/main.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "concurrently \"npm run vite\" \"npm run electron\"",
+    "vite": "vite",
+    "electron": "wait-on http://localhost:5173 && electron .",
+    "build": "vite build && electron-builder",
+    "preview": "vite preview",
+    "py": "python src/python/app.py"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest",
+    "vite": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "concurrently": "^8.2.0",
+    "wait-on": "^7.0.1"
+  },
+  "author": "",
+  "license": "MIT"
+}

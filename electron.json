@@ -1,0 +1,18 @@
+{
+  "appId": "com.bulk-remover.app",
+  "productName": "Bulk Background Remover",
+  "main": "dist/main/main.js",
+  "preload": "dist/main/preload.js",
+  "devServer": "http://localhost:5173",
+  "devTools": true,
+  "width": 1200,
+  "height": 800,
+  "minWidth": 800,
+  "minHeight": 600,
+  "icon": "public/icon.png",
+  "webPreferences": {
+    "preload": "dist/main/preload.js",
+    "nodeIntegration": false,
+    "contextIsolation": true
+  }
+}

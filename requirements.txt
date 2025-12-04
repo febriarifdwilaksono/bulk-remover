@@ -1,0 +1,9 @@
+torch==2.0.0
+torchvision==0.15.0
+opencv-python==4.7.0.72
+Pillow==9.5.0
+numpy==1.24.3
+Flask==2.3.2
+python-dotenv==1.0.0
+rembg==2.0.50
+onnxruntime==1.15.1
